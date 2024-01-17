@@ -1,0 +1,182 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+.img1{
+    width:100%;
+    height: auto;
+}
+
+.icn{
+    width: 30px;
+}
+
+.team{
+    margin-top: 10px;
+    font-weight: 700;
+    color: black !important;
+}
+
+.year{
+    font-weight: 700;
+    color: black !important;
+    font-size: 16px;
+}
+
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+
+.cover2{
+    padding: 30px;
+    width: 87%;
+   margin: auto;
+}
+
+.cover p{
+font-size:22px;
+color: var(--Grey-3, #8F9098);
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 145%;
+}
+
+.flipimg{
+    width: 100%;
+    background-size: contain;
+}
+
+.hello{
+    margin-bottom: 10px;
+    color: black !important;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.forward{
+
+    margin-top: 20px;
+    color: var(--Grey-3, #8F9098);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+
+}
+
+
+.list{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: var(--Grey-3, #8F9098);  
+    font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 145%;
+     position: relative;
+}
+
+
+.logs{
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    z-index: 1;
+     left:0%; 
+     right: 0%;
+     transform: "translate(-50%, -50%)"
+}
+
+.started{
+    margin-top: 15px;
+}
+
+.thankyou{
+    margin-top: 15px;
+}
+
+.regards{
+    color: black !important;
+}
+
+.btn{
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.btns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:640px) {
+
+    .welcome, .hello, .team, .year, .forward{
+        font-size: 20px;
+    }
+
+    .cover2{
+        padding: 30px;
+        width: 95%;
+       margin: auto;
+    }
+
+    .year{
+        font-size: 10px;
+    }
+
+
+
+.list{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--Grey-3, #8F9098);  
+    font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     
+    
+}
+
+
+}
